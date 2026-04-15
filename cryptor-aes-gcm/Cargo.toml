@@ -1,0 +1,8 @@
+[package]
+name = "cryptor-aes-gcm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.6.0", features = ["derive"] }
+openssl = "0.10.77"
